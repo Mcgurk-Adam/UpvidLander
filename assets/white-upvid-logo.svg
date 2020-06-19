@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="569px" height="205px" viewBox="0 0 569 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Upvid Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-20.000000, -36.000000)" fill="#FFFFFF">
+            <g id="Upvid-Logo" transform="translate(20.000000, -2.000000)">
+                <text id="upvid" font-family="MuseoModerno-SemiBold_Bold, MuseoModerno" font-size="150" font-weight="bold">
+                    <tspan x="22" y="172">upvid</tspan>
+                </text>
+                <g id="Arrow" transform="translate(0.000000, 31.919230)">
+                    <path d="M510.84101,9.75079942 C518.531898,15.1360172 520.401013,25.7362955 515.015795,33.4271836 L466.835374,102.235955 C461.450157,109.926843 450.849878,111.795958 443.15899,106.410741 C435.468102,101.025523 433.598987,90.4252446 438.984205,82.7343565 L487.164626,13.9255848 C492.549843,6.23469666 503.150122,4.3655816 510.84101,9.75079942 Z" id="Rectangle"></path>
+                    <path d="M493.15899,9.75079942 C500.849878,4.3655816 511.450157,6.23469666 516.835374,13.9255848 L565.015795,82.7343565 C570.401013,90.4252446 568.531898,101.025523 560.84101,106.410741 C553.150122,111.795958 542.549843,109.926843 537.164626,102.235955 L488.984205,33.4271836 C483.598987,25.7362955 485.468102,15.1360172 493.15899,9.75079942 Z" id="Rectangle"></path>
+                    <rect id="Rectangle" x="0" y="171.08077" width="517" height="40" rx="20"></rect>
+                    <rect id="Rectangle" x="486" y="6.08077003" width="31" height="201" rx="15.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
