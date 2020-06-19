@@ -15,10 +15,8 @@
 html, body {
 	overflow-x: hidden;
 	background: linear-gradient(135deg, #044E54, #38BEC9);
-}
-
-body {
-	height: 100vh;
+	min-height: 100vh;
+	height: 100%;
 }
 
 a {
@@ -150,7 +148,7 @@ header {
 		background-color: #fff;
 		border-radius: 12px;
 		margin-top: 50px;
-		padding: 50px 20px;
+		padding: 20px;
 
 		h3 {
 			color: #102A43;
