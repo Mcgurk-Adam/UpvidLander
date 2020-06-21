@@ -40,6 +40,9 @@
 			<hr>
 			<label>Email Address
 				<input type="email" name="email" placeholder="you@gmail.com" required>
+				<input type="hidden" name="utm_source" value="" required>
+				<input type="hidden" name="utm_campaign" value="">
+				<input type="hidden" name="utm_medium" value="">
 			</label>
 			<button type="submit">Request Access</button>
 
@@ -50,6 +53,31 @@
 	<footer>
 		<p class="self-center">&copy; 2020 UpVid</p>
 	</footer>
+
+<script>
+	
+	const urlParams = new URLSearchParams(window.location.search);
+	let leadSource;
+	switch(urlParams.get("utm_source")) {
+
+		case "twitter":
+			leadSource = "3";
+		break;
+
+		case "dev.to":
+			leadSource = "2";
+		break;
+
+		case "self":
+		default:
+			leadSource = "4";
+
+	}
+	document.querySelector("[name='utm_source']").value = leadSource;
+	document.querySelector("[name='utm_campaign']").value = urlParams.get("utm_campaign");
+	document.querySelector("[name='utm_medium']").value = urlParams.get("utm_medium");
+
+</script>
 
 </body>
 </html>
